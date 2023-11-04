@@ -50,6 +50,6 @@ pip install anonpi
 
 ### Additional Resources
 - [Documentation Link](https://docs.anonpi.co)
-- [GitHub Repository](https://github.com)
+- [GitHub Repository](https://github.com/evenuestar/anonpi)
 
 
