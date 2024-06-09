@@ -1,5 +1,6 @@
 import typing as t
-from anonpi.models.sub import TopupHistory, CallHistory, RecordsBase
+from anonpi.models.sub.records.sub.record import TopupHistory, CallHistory
+from anonpi.models.sub.records.super.record_expand import RecordsBase
 
 
 class UserCallRecords(RecordsBase):
@@ -11,7 +12,7 @@ class UserCallRecords(RecordsBase):
     """
     obj_name = 'call_record', CallHistory
 
-    def __getitem__(self, index: int) -> CallHistory:
+    def __getitem__(self, index: int) -> "CallHistory":
         return super().__getitem__(index)
 
 

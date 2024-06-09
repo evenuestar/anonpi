@@ -15,7 +15,7 @@ api_base: str = os.environ.get(
 
 
 __author__ = "EvenueStar"
-__version__ = "2.0.0"
+__version__ = "2.0.1"
 __license__ = "MIT"
 __name__ = "anonpi"
 __annotations__ = {"api_key": api_key, "api_base": api_base,

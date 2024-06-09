@@ -14,7 +14,7 @@ class Call(CallBaseAnon):
          status = call.status()
          call.hangup()
     """
-
+    
     def hangup(self) -> None:
         """ ### Hangup the call 
         Raises:
@@ -159,3 +159,4 @@ class Call(CallBaseAnon):
     def record_stop(self):
         """ ### Stop recording """
         return Call.create_record_stop(calluuid=self.calluuid)
+

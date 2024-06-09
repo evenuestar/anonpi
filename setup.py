@@ -5,7 +5,7 @@ from anonpi import (app_info)
 setup(
     **app_info(),
     description='The "anonpi" module is a Python package designed to streamline interactions with calling systems. It simplifies the development of applications that require features like machine detection, IVR, DTMF handling, call recording, playback, and more. This module provides a clean and intuitive API for seamless integration into Python applications.',
-    long_description=open("README.md").read(),
+    long_description=open("/Users/adistar/Programs/Python/anonpi/README.MD").read(),
     packages=find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
